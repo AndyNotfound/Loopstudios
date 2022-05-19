@@ -6,3 +6,233 @@
     --dark-gray: hsl(0, 0%, 55%);
     --very-dark-gray: hsl(0, 0%, 41%);
 }
+
+*{
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: unset;
+}
+
+h1, h2{
+    font-family: var(--josef);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+section{
+    margin-bottom: 4em;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/*Navigation*/
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em auto;
+    color: var(--white);
+    font-family: var(--alata);
+}
+
+.brand{
+    cursor: pointer;
+}
+
+.navigationLink, .navigationLink > a{
+    display: flex;
+    gap: 1.2em;
+    color: var(--white);
+    font-family: var(--alata);
+    font-size: 15px;
+    transition-duration: 1s;
+}
+
+.navigationLink > a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+    transition: all ease-out;
+}
+
+/*Hero*/
+.heroSectionBackgroundImage{
+    background-image: url(/images/desktop/image-hero.jpg);
+    background-size: cover;
+    padding: 1em 0em;
+    height: 650px;
+}
+
+.heroBoxedText{
+    max-width: 700px;
+    padding: 0.5em;
+    margin-top: 2em;
+    border: var(--white) 2px solid;
+    color: var(--white);
+    font-size: 60px;
+}
+
+/*Feautured Post*/
+.featured{
+    display: flex;
+}
+
+.featuredImage{
+    background-image: url(/images/desktop/image-interactive.jpg);
+    width: 731px;
+    height: 500px;
+}
+
+.featuredPost{
+    width: 600px;
+    height: fit-content;
+    align-self: flex-end;
+    position: absolute;
+    left: 48%;
+    padding: 4em 5em;
+    background-color: var(--white);
+    font-size: 15px;
+    font-family: var(--alata);
+    color: var(--very-dark-gray);
+}
+
+.featuredPost > h2{
+    color: var(--black);
+    margin-bottom: 0.5em;
+}
+
+/* Post Pagination*/
+.post{
+    margin: 4em auto;
+}
+
+.postController{
+    margin: 4em auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.controllerButton{
+    display: inline;
+    background-color: unset;
+    border: 2px var(--black) solid;
+    padding: 1em 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+button.controllerButton:hover{
+    background-color: var(--black);
+    color: var(--white);
+    transition: all ease-out;
+}
+
+/*Post Card*/
+.gridCardPostWrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 4em;
+    gap: 4em;
+}
+
+.gridPostCard{
+    width: 256px;
+    height: 450px;
+    display: flex;
+    color: var(--white);
+    transition-duration: 0.5s;
+}
+
+.gridPostCard:hover{
+    transition: ease-out all;
+    filter: grayscale(90%) brightness(1.2);
+    color: var(--black);
+}
+
+.postTittle{
+    align-self: flex-end;
+    padding: 1em;
+    font-size: 36px;
+    font-family: var(--josef);
+}
+
+.imageOne, .imageTwo, .imageFour, .imageFive, .imageSix, .imageSeven, .imageEight{
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.imageOne{
+    background-image: url(/images/desktop/image-deep-earth.jpg);
+}
+
+.imageTwo{
+    background-image: url(/images/desktop/image-night-arcade.jpg);
+}
+
+.imageThree{
+    background-image: url(/images/desktop/image-soccer-team.jpg);
+}
+
+.imageFour{
+    background-image: url(/images/desktop/image-grid.jpg);
+}
+
+.imageFive{
+    background-image: url(/images/desktop/image-from-above.jpg);
+}
+
+.imageSix{
+    background-image: url(/images/desktop/image-pocket-borealis.jpg);
+}
+
+.imageSeven{
+    background-image: url(/images/desktop/image-curiosity.jpg);
+}
+
+.imageEight{
+    background-image: url(/images/desktop/image-fisheye.jpg);
+}
+
+/*Footer*/
+footer{
+    background-color: var(--black);
+    padding: 2em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quickLink, .socialLink{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: var(--white);
+    font-family: var(--alata);
+}
+
+.socialIcon{
+    align-self: flex-end;
+    display: flex;
+    gap: 1em;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.socialIcon:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+    transition: all ease-out;
+}
+
+.copy{
+    color: var(--dark-gray);
+}
