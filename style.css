@@ -14,6 +14,10 @@
     box-sizing: border-box;
     text-decoration: none;
     font-weight: unset;
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
 }
 
 /*Element*/
@@ -33,7 +37,7 @@ section{
 }
 
 /*Navigation*/
-.navigation {
+.navigationBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,8 +47,10 @@ section{
 }
 .brand{
     cursor: pointer;
+    font-size: 30px;
+
 }
-.navigationLink, .navigationLink > a{
+.navigationLink, .navigationLink > li > a{
     display: flex;
     gap: 1.2em;
     color: var(--white);
@@ -52,13 +58,10 @@ section{
     font-size: 15px;
     transition-duration: 1s;
 }
-.navigationLink > a:hover{
+.navigationLink > li > a:hover{
     text-decoration: underline;
     text-underline-position: under;
     transition: all ease-out;
-}
-.hamburger{
-    display: none;
 }
 
 /*Hero*/
@@ -191,7 +194,7 @@ button.controllerButton:hover{
 /*Footer*/
 .footer{
     background-color: var(--black);
-    padding: 2em 1em;
+    padding: 2em 4em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -232,6 +235,10 @@ button.controllerButton:hover{
     color: var(--dark-gray);
 }
 
+.mobileNavToggle{
+    display: none;
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
     /*Element*/
     h2{
@@ -239,40 +246,45 @@ button.controllerButton:hover{
     }
     
     /*Navigation*/
-    .navigation > img{ 
-        position: relative;
-        z-index: 12;
-    }
     .brand{
         position: relative;
         z-index: 10;
     }
     .navigationLink{
         position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 100%;
-        right: 0;
+        inset: 0 0 0 0;
+        transform: translateX(100%);
         justify-content: center;
         background-color: var(--black);
-        opacity: 90%;
         flex-direction: column;
         gap: 1.2em;
         z-index: 2;
         transition: 1s;
     }
-    .navigationLink > a{
+    .navigationLink[data-visible="true"]{
+        transform: translateX(0%);
+
+    }
+    .navigationLink > li > a{
         font-size: 30px;
         font-family: var(--josef);
         margin-left: 1em;
         text-transform: uppercase;
     }
-    .navigationLink.active{
-        left: 0;
-        transition: all ease-in;
-    }
-    .hamburger{
+    .mobileNavToggle{
+        cursor: pointer;
         display: block;
+        z-index: 4;
+        white-space: pre;
+        aspect-ratio: 1;
+        width: 1.2rem;
+        background-image: url(/images/icon-hamburger.svg);
+        background-color: transparent;
+        background-repeat: no-repeat;
+    }
+    .mobileNavToggle[aria-expanded="true"]{
+        background: url(/images/icon-close.svg);
+        background-repeat: no-repeat;
     }
     
     /*Hero*/
@@ -375,6 +387,8 @@ button.controllerButton:hover{
     .footer{
         flex-direction: column;
         gap: 2em;
+        padding: 2em 1em;
+
     }
     .quickLink{
         flex-direction: column;
