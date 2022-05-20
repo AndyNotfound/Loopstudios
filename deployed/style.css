@@ -63,7 +63,7 @@ section{
 
 /*Hero*/
 .heroSectionBackgroundImage{
-    background-image: url(/images/desktop/image-hero.jpg);
+    background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/desktop/image-hero.jpg);
     background-size: cover;
     padding: 1em 0em;
     height: 650px;
@@ -82,7 +82,7 @@ section{
     display: flex;
 }
 .featuredImage{
-    background-image: url(/images/desktop/image-interactive.jpg);
+    background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/desktop/image-interactive.jpg);
     width: 731px;
     height: 500px;
 }
@@ -164,28 +164,28 @@ button.controllerButton:hover{
     background-repeat: no-repeat;
 }
 .imageOne{
-    background-image: url(/images/desktop/image-deep-earth.jpg);
+    background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/desktop/image-deep-earth.jpg);
 }
 .imageTwo{
-    background-image: url(/images/desktop/image-night-arcade.jpg);
+    background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/desktop/image-night-arcade.jpg);
 }
 .imageThree{
-    background-image: url(/images/desktop/image-soccer-team.jpg);
+    background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/desktop/image-soccer-team.jpg);
 }
 .imageFour{
-    background-image: url(/images/desktop/image-grid.jpg);
+    background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/desktop/image-grid.jpg);
 }
 .imageFive{
-    background-image: url(/images/desktop/image-from-above.jpg);
+    background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/desktop/image-from-above.jpg);
 }
 .imageSix{
-    background-image: url(/images/desktop/image-pocket-borealis.jpg);
+    background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/desktop/image-pocket-borealis.jpg);
 }
 .imageSeven{
-    background-image: url(/images/desktop/image-curiosity.jpg);
+    background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/desktop/image-curiosity.jpg);
 }
 .imageEight{
-    background-image: url(/images/desktop/image-fisheye.jpg);
+    background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/desktop/image-fisheye.jpg);
 }
 
 /*Footer*/
@@ -305,7 +305,7 @@ button.controllerButton:hover{
         height: fit-content;
     }
     .featuredImage{
-        background-image: url(/images/mobile/image-interactive.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-interactive.jpg);
         background-repeat: no-repeat;
         background-position: center;
         width: 80vw;
@@ -340,35 +340,35 @@ button.controllerButton:hover{
         background-position: center;
     }
     .imageOne{
-        background-image: url(/images/mobile/image-deep-earth.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-deep-earth.jpg);
     }
     
     .imageTwo{
-        background-image: url(/images/mobile/image-night-arcade.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-night-arcade.jpg);
     }
     
     .imageThree{
-        background-image: url(/images/mobile/image-soccer-team.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-soccer-team.jpg);
     }
     
     .imageFour{
-        background-image: url(/images/mobile/image-grid.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-grid.jpg);
     }
     
     .imageFive{
-        background-image: url(/images/mobile/image-from-above.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-from-above.jpg);
     }
     
     .imageSix{
-        background-image: url(/images/mobile/image-pocket-borealis.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-pocket-borealis.jpg);
     }
     
     .imageSeven{
-        background-image: url(/images/mobile/image-curiosity.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-curiosity.jpg);
     }
     
     .imageEight{
-        background-image: url(/images/mobile/image-fisheye.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-fisheye.jpg);
     }
 
     /*Footer*/
@@ -414,7 +414,7 @@ button.controllerButton:hover{
         height: fit-content;
     }
     .featuredImage{
-        background-image: url(/images/mobile/image-interactive.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-interactive.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -446,34 +446,34 @@ button.controllerButton:hover{
         background-position: center;
     }
     .imageOne{
-        background-image: url(/images/mobile/image-deep-earth.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-deep-earth.jpg);
     }
     
     .imageTwo{
-        background-image: url(/images/mobile/image-night-arcade.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-night-arcade.jpg);
     }
     
     .imageThree{
-        background-image: url(/images/mobile/image-soccer-team.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-soccer-team.jpg);
     }
     
     .imageFour{
-        background-image: url(/images/mobile/image-grid.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-grid.jpg);
     }
     
     .imageFive{
-        background-image: url(/images/mobile/image-from-above.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-from-above.jpg);
     }
     
     .imageSix{
-        background-image: url(/images/mobile/image-pocket-borealis.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-pocket-borealis.jpg);
     }
     
     .imageSeven{
-        background-image: url(/images/mobile/image-curiosity.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-curiosity.jpg);
     }
     
     .imageEight{
-        background-image: url(/images/mobile/image-fisheye.jpg);
+        background-image: url(https://github.com/AndyNotfound/LoopstudiosLandingPage/blob/main/images/mobile/image-fisheye.jpg);
     }
 }
