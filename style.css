@@ -66,7 +66,7 @@ section{
 
 /*Hero*/
 .heroSectionBackgroundImage{
-    background-image: url(/images/desktop/image-hero.jpg);
+    background-image: url(https://i.postimg.cc/wvFrtc9K/image-hero.jpg);
     background-size: cover;
     padding: 1em 0em;
     height: 650px;
@@ -85,7 +85,7 @@ section{
     display: flex;
 }
 .featuredImage{
-    background-image: url(/images/desktop/image-interactive.jpg);
+    background-image: url(https://i.postimg.cc/hGL6nRwt/image-interactive.jpg);
     width: 731px;
     height: 500px;
 }
@@ -167,28 +167,28 @@ button.controllerButton:hover{
     background-repeat: no-repeat;
 }
 .imageOne{
-    background-image: url(/images/desktop/image-deep-earth.jpg);
+    background-image: url(https://i.postimg.cc/KjqCW7W7/image-deep-earth.jpg);
 }
 .imageTwo{
-    background-image: url(/images/desktop/image-night-arcade.jpg);
+    background-image: url(https://i.postimg.cc/MpjgsQmR/image-night-arcade.jpg);
 }
 .imageThree{
-    background-image: url(/images/desktop/image-soccer-team.jpg);
+    background-image: url(https://i.postimg.cc/V6zTLHQB/image-soccer-team.jpg);
 }
 .imageFour{
-    background-image: url(/images/desktop/image-grid.jpg);
+    background-image: url(https://i.postimg.cc/X7qRChZs/image-grid.jpg);
 }
 .imageFive{
-    background-image: url(/images/desktop/image-from-above.jpg);
+    background-image: url(https://i.postimg.cc/s2dqbgTL/image-from-above.jpg);
 }
 .imageSix{
-    background-image: url(/images/desktop/image-pocket-borealis.jpg);
+    background-image: url(https://i.postimg.cc/HsNf42Xd/image-pocket-borealis.jpg);
 }
 .imageSeven{
-    background-image: url(/images/desktop/image-curiosity.jpg);
+    background-image: url(https://i.postimg.cc/RhVjGpgV/image-curiosity.jpg);
 }
 .imageEight{
-    background-image: url(/images/desktop/image-fisheye.jpg);
+    background-image: url(https://i.postimg.cc/qB1fg07t/image-fisheye.jpg);
 }
 
 /*Footer*/
@@ -278,18 +278,18 @@ button.controllerButton:hover{
         white-space: pre;
         aspect-ratio: 1;
         width: 1.2rem;
-        background-image: url(/images/icon-hamburger.svg);
+        background-image: url(https://i.postimg.cc/jS539J6v/icon-hamburger.png);
         background-color: transparent;
         background-repeat: no-repeat;
     }
     .mobileNavToggle[aria-expanded="true"]{
-        background: url(/images/icon-close.svg);
+        background: url(https://i.postimg.cc/3RMLdSsb/icon-close.png);
         background-repeat: no-repeat;
     }
     
     /*Hero*/
     .heroSectionBackgroundImage{ 
-        background-image: url(/images/mobile/image-hero.jpg);
+        background-image: url(https://i.postimg.cc/T3p5BRKn/image-hero.jpg);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -317,7 +317,7 @@ button.controllerButton:hover{
         height: fit-content;
     }
     .featuredImage{
-        background-image: url(/images/mobile/image-interactive.jpg);
+        background-image: url(https://i.postimg.cc/X7NCcK3H/image-interactive.jpg);
         background-repeat: no-repeat;
         background-position: center;
         width: 80vw;
@@ -352,35 +352,35 @@ button.controllerButton:hover{
         background-position: center;
     }
     .imageOne{
-        background-image: url(/images/mobile/image-deep-earth.jpg);
+        background-image: url(https://i.postimg.cc/nL979HZn/image-deep-earth.jpg);
     }
     
     .imageTwo{
-        background-image: url(/images/mobile/image-night-arcade.jpg);
+        background-image: url(https://i.postimg.cc/4yPhRyvQ/image-night-arcade.jpg);
     }
     
     .imageThree{
-        background-image: url(/images/mobile/image-soccer-team.jpg);
+        background-image: url(https://i.postimg.cc/SNZzZXxy/image-soccer-team.jpg);
     }
     
     .imageFour{
-        background-image: url(/images/mobile/image-grid.jpg);
+        background-image: url(https://i.postimg.cc/fLx95BJF/image-grid.jpg);
     }
     
     .imageFive{
-        background-image: url(/images/mobile/image-from-above.jpg);
+        background-image: url(https://i.postimg.cc/T1fWsgbP/image-from-above.jpg);
     }
     
     .imageSix{
-        background-image: url(/images/mobile/image-pocket-borealis.jpg);
+        background-image: url(https://i.postimg.cc/dQjCyNMZ/image-pocket-borealis.jpg);
     }
     
     .imageSeven{
-        background-image: url(/images/mobile/image-curiosity.jpg);
+        background-image: url(https://i.postimg.cc/Z5MpqWGf/image-curiosity.jpg);
     }
     
     .imageEight{
-        background-image: url(/images/mobile/image-fisheye.jpg);
+        background-image: url(https://i.postimg.cc/V6ytj3Ln/image-fisheye.jpg);
     }
 
     /*Footer*/
@@ -428,7 +428,7 @@ button.controllerButton:hover{
         height: fit-content;
     }
     .featuredImage{
-        background-image: url(/images/mobile/image-interactive.jpg);
+        background-image: url(https://i.postimg.cc/X7NCcK3H/image-interactive.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -460,34 +460,34 @@ button.controllerButton:hover{
         background-position: center;
     }
     .imageOne{
-        background-image: url(/images/mobile/image-deep-earth.jpg);
+        background-image: url(https://i.postimg.cc/nL979HZn/image-deep-earth.jpg);
     }
     
     .imageTwo{
-        background-image: url(/images/mobile/image-night-arcade.jpg);
+        background-image: url(https://i.postimg.cc/4yPhRyvQ/image-night-arcade.jpg);
     }
     
     .imageThree{
-        background-image: url(/images/mobile/image-soccer-team.jpg);
+        background-image: url(https://i.postimg.cc/SNZzZXxy/image-soccer-team.jpg);
     }
     
     .imageFour{
-        background-image: url(/images/mobile/image-grid.jpg);
+        background-image: url(https://i.postimg.cc/fLx95BJF/image-grid.jpg);
     }
     
     .imageFive{
-        background-image: url(/images/mobile/image-from-above.jpg);
+        background-image: url(https://i.postimg.cc/T1fWsgbP/image-from-above.jpg);
     }
     
     .imageSix{
-        background-image: url(/images/mobile/image-pocket-borealis.jpg);
+        background-image: url(https://i.postimg.cc/dQjCyNMZ/image-pocket-borealis.jpg);
     }
     
     .imageSeven{
-        background-image: url(/images/mobile/image-curiosity.jpg);
+        background-image: url(https://i.postimg.cc/Z5MpqWGf/image-curiosity.jpg);
     }
     
     .imageEight{
-        background-image: url(/images/mobile/image-fisheye.jpg);
+        background-image: url(https://i.postimg.cc/V6ytj3Ln/image-fisheye.jpg);
     }
 }
