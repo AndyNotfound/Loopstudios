@@ -70,6 +70,7 @@ section{
     background-size: cover;
     padding: 1em 0em;
     height: 650px;
+    overflow-x: hidden;
 }
 .heroBoxedText{
     max-width: 700px;
