@@ -251,6 +251,7 @@ button.controllerButton:hover{
         z-index: 10;
     }
     .navigationLink{
+        display: none;
         position: absolute;
         inset: 0 0 0 0;
         transform: translateX(100%);
@@ -263,7 +264,7 @@ button.controllerButton:hover{
     }
     .navigationLink[data-visible="true"]{
         transform: translateX(0%);
-
+        display: flex;
     }
     .navigationLink > li > a{
         font-size: 30px;
