@@ -144,7 +144,7 @@ button.controllerButton:hover{
 }
 .gridPostCard{
     width: 100%;
-    height: 450px;
+    height: 550px;
     display: flex;
     color: var(--white);
     transition-duration: 0.5s;
@@ -162,9 +162,10 @@ button.controllerButton:hover{
     font-family: var(--josef);
 }
 /*Post Images*/
-.imageOne, .imageTwo, .imageFour, .imageFive, .imageSix, .imageSeven, .imageEight{
+.imageOne, .imageTwo, .imageFour, .imageThree, .imageFive, .imageSix, .imageSeven, .imageEight{
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
     object-fit: cover;
 }
 .imageOne{
